@@ -1,0 +1,15 @@
+paths:
+  source_folder: 'Assets/'
+  json_source_file: 'data.json'
+  json_destination_file: 'data_mod2.json'
+  yaml_destination_file: 'data_ymod2.yaml'
+
+options:
+  source_type: 'file'
+  operations:
+    - name: 'deserialize'
+      position: 1
+    - name: 'serialize'
+      position: 2
+    - name: 'convert_to_yaml'
+      position: 3
